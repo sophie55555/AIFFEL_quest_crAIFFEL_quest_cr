@@ -47,7 +47,7 @@ AIFFEL_quest_cr
 │       └── README.md
 │ 
 │ 
-├── Fluttet
+├── Flutter
 │   └── Quest01
 │        ├── .ipynb
 │        └── README.md
