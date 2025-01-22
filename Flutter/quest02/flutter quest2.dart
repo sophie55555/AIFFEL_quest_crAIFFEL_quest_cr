@@ -93,3 +93,7 @@ class HomePage extends StatelessWidget {
     );
   }
 }
+
+// 최유진: 여러 요소를 겹쳐서 표현하는 경우에 어떻게 해야하는지에 대해서 알게 되었다.
+// positioned 속성에 대해서 익히고 나니 더 창의적인 UI를 만들어 보고 싶다!
+// 고명지: stack의 위치를 지정할 때 Positioned를 활용하여 각 기준점을 정해주는 방법을 배웠음. 
