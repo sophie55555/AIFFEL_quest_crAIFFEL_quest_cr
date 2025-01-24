@@ -123,4 +123,4 @@ class DogScreen extends StatelessWidget{
 //회고
 //고명지:Navigator.push와 Navigator.pop을 사용해 화면 전환 구현을 해보아 의미있었음.
 // 다만, is_cat 변수에 대한 이해는 좀 더 시간이 필요함.
-//ClipRRect를 사용하여 사진의 라운드값을 넣는법을 배웠음. pop에서 데이터를 받는 방법에 대해 이해했다.
+//김민상:ClipRRect를 사용하여 사진의 라운드값을 넣는법을 배웠음. pop에서 데이터를 받는 방법에 대해 이해했다.
