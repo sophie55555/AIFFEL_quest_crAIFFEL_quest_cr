@@ -1,0 +1,17 @@
+import tensorflow as tf
+
+# 1. TensorFlow 모델 로드 (예: Keras 모델)
+model = tf.keras.models.load_model('my_model.h5')
+
+# 2. TensorFlow Lite 변환기 생성
+converter = tf.lite.TFLiteConverter.from_keras_model(model)
+
+# (선택 사항) 양자화 설정
+converter.optimizations = [tf.lite.Optimize.DEFAULT]  # 기본 양자화
+
+# 3. TensorFlow Lite 모델로 변환
+tflite_model = converter.convert()
+
+# 4. 파일로 저장
+with open('my_model.tflite', 'wb') as f:
+  f.write(tflite_model)
