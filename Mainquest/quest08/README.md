@@ -1,8 +1,8 @@
 # AIFFEL Campus Online Code Peer Review Templete
 - 코더 : 고명지
 
-(동일한 하이퍼 파라미터 적용)
-# Set hyperparameters
+
+# Set hyperparameters(Case 모두 동일한 하이퍼 파라미터 적용)
 
 image_size = 256
 
