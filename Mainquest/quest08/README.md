@@ -114,8 +114,12 @@ Step Decay 효과: Step Decay Learning Rate Scheduling을 통해 검증 손실�
 
 # 회고(참고 링크 및 코드 개선)
 Cross-entropy loss: 픽셀 단위의 정확도
+
 Dice loss: 영역 단위의 정확도
+
 mIoU (mean Intersection over Union) metric
+
+
 
 (설명)
 Cross-entropy loss와 Dice loss를 함께 사용하여 mean Intersection over Union (mIoU) 를 높이도록 학습하는 것은 이미지 분할 (Image Segmentation) 작업에서 흔히 사용되는 전략입니다. Loss 함수를 사용하는 이유와 두 Loss 함수를 함께 사용하는 이유를 자세히 설명해 드리겠습니다.
