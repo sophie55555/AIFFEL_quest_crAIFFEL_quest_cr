@@ -5,8 +5,11 @@
 # Set hyperparameters
 
 image_size = 256
+
 img_shape = (image_size, image_size, 3)
+
 batch_size = 8
+
 max_epochs = 10
 
 
