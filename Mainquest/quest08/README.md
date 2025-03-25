@@ -188,8 +188,6 @@ Cross-entropy loss와 Dice loss를 함께 사용하여 mean Intersection over Un
 
 mIoU 향상: mIoU (mean Intersection over Union) 는 이미지 분할 모델의 성능을 평가하는 지표 중 하나입니다. Cross-entropy Loss와 Dice Loss를 함께 사용하면 mIoU 값을 높이는 데 효과적입니다.
 
-# 회고(참고 링크 및 코드 개선)
-```
-# 리뷰어의 회고를 작성합니다.
-# 코드 리뷰 시 참고한 링크가 있다면 링크와 간략한 설명을 첨부합니다.
-# 코드 리뷰를 통해 개선한 코드가 있다면 코드와 간략한 설명을 첨부합니다.
+
+
+
