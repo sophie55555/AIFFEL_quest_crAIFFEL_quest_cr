@@ -17,6 +17,7 @@ max_epochs = 10
 Case 1: Encoder-Decoder model - mean_iou: 0.631983451996782
 
 ![Alt text](./100.png) 
+
 결과 분석)
 1. 훈련 손실 (Train Loss) 분석:
 
@@ -35,6 +36,7 @@ Val Dice Loss (주황색): 비교적 안정적인 값을 유지하지만, Val Lo
 Case 2: u-net model - mean_iou: 0.9403515949039798
 
 ![Alt text](./101.png) 
+
 결과 분석)
 1. 훈련 손실 (Train Loss) 그래프:Loss와 Dice Loss의 간격: 두 Loss 값 사이의 간격이 좁혀지는 것을 확인할 수 있습니다. 이는 모델이 Cross-entropy Loss와 Dice Loss를 모두 만족시키는 방향으로 학습되고 있음을 의미합니다.
 
@@ -55,6 +57,7 @@ Val Dice Loss (주황색): Val Loss와 마찬가지로 낮은 값을 유지하�
 Case 3: unet+vgg16 - mean_iou: 0.5760845868524777
 
 ![Alt text](./102.png) 
+
 결과 분석)
 1. 훈련 손실 (Train Loss) 분석:
 
@@ -77,6 +80,7 @@ Val Dice Loss (주황색): Val Loss와 유사하게, 초기에는 감소하지�
 Case 4: unet+vgg16+stepdecay - mean_iou: 0.4841173547366614
 
 ![Alt text](./103.png) 
+
 결과 분석)
 1. 훈련 손실 (Train Loss) 분석:
 
