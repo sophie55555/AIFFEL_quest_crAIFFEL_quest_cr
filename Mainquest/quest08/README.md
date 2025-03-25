@@ -1,6 +1,5 @@
 # AIFFEL Campus Online Code Peer Review Templete
 - 코더 : 고명지
-- 리뷰어 : 리뷰어의 이름을 작성하세요.
 
 (동일한 하이퍼 파라미터 적용)
 # Set hyperparameters
