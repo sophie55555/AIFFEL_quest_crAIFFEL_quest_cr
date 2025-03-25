@@ -1,6 +1,6 @@
 # AIFFEL Campus Online Code Peer Review Templete
 - 코더 : 고명지
-
+(segmentation 결과 시각화는 코드 파일에 있습니다.)
 
 # Set hyperparameters(Case 모두 동일한 하이퍼 파라미터 적용)
 
