@@ -119,9 +119,6 @@ Dice loss: 영역 단위의 정확도
 
 mIoU (mean Intersection over Union) metric: mIoU 향상: mIoU (mean Intersection over Union) 는 이미지 분할 모델의 성능을 평가하는 지표 중 하나입니다. Cross-entropy Loss와 Dice Loss를 함께 사용하면 mIoU 값을 높이는 데 효과적입니다.
 
-
-
-(설명)
 Cross-entropy loss와 Dice loss를 함께 사용하여 mean Intersection over Union (mIoU) 를 높이도록 학습하는 것은 이미지 분할 (Image Segmentation) 작업에서 흔히 사용되는 전략입니다. Loss 함수를 사용하는 이유와 두 Loss 함수를 함께 사용하는 이유를 자세히 설명해 드리겠습니다.
 
 1. Loss 함수의 역할:
